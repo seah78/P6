@@ -1,66 +1,76 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JustStreamIt</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="include/style.css">
-  
-     </head>
-  <body id="body">
-    <main id="main-wrapper" aria-hidden="false">
-        <h1>JustStreamIt</h1>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JustStreamIt</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="include/style.css">
+    </head>
+    <body id="body">
+        <main id="main-wrapper" aria-hidden="false">
+            <section>
+                <div class="border header">
+                    <div class="case">
+                        <a class="image" href="images/16004298163529_P5.png"><img src="images/16004298163529_P5.png" alt="Logo" /></a>
+                    </div>
+                    <div class="case">
+                        <h3><a href="index.html">Accueil</a></h3>
+                    </div>
+                    <div class="case">
+                        <h3><a href="index.html">Categories</a></h3>
+                    </div>
+                </div>
+            </section> 
 
-        <div role="button" class="controls controls-left">
-            <span class="img prev-image">
-                <i aria-hidden="true" class="fa fa-arrow-circle-left"></i>
-            </span>
-            <p class="sr-only">Previous</p>
-        </div>
-        <ul class="carousel" aria-label="Our selection of Recipes">
-            <li class="carousel-item item-0" aria-hidden="false">
-
-
+            <section id="best_movie">
+                <div class="border">
+                    <h1>Best Movie</h1>        
+                    <div class="modal-btn" id="bm_id"></div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="most_rated_movies">
+                <div class="border">
+                    <h3 class="category_name">category_name</h3>
+                    <div class="slider"></div>
+                </div>
+            </section>
         
-
-                <div class="caroussel-title">
-
-                    <img src="images/hp1.jpeg">
-                    <img src="images/hp2.jpeg">
-                    <img src="images/hp3.jpeg">
-                    <img src="images/hp4.jpeg">
-
-
+            <section id="category_1">
+                <div class="border">
+                    <h3 class="category_name">category_name</h3>
+                    <div class="slider"></div>
                 </div>
-            </li>
-            <li class="carousel-item item-1" aria-hidden="true">
-
-
-                <div class="caroussel-title">
-                    <img src="images/hp5.jpeg">
-                    <img src="images/hp6.jpeg">
-                    <img src="images/hp7.jpeg">
-                    <img src="images/hp8.jpeg">
+            </section>
+        
+            <section id="category_2">
+                <div class="border">
+                    <h3 class="category_name">category_name</h3>
+                    <div class="slider"></div>
                 </div>
-            </li>
+            </section>
+        
+            <section id="category_3">
+                <div class="border">
+                    <h3 class="category_name">category_name</h3>
+                    <div class="slider"></div>
+                </div>
+            </section>
 
-        </ul>
-        <div role="button" class="controls controls-right">
-            <span class="img next-image">
-                <i aria-hidden="true" class="fa fa-arrow-circle-right"></i>
-            </span>
-            <p class="sr-only">Next</p>
-        </div>
-        <div>
-            <button class="carousel-pause-btn">Pause carousel</button>
-        </div>
-    </main>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script><script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-  <script src="include/script.js"></script>
-  </body>
-  </html>
+
+
+        </main>
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script src="include/script.js"></script>
+    </body>
+</html>
