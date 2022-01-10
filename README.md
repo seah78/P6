@@ -53,7 +53,7 @@ La page s'affiche dans le navigateur
 
 ## Versions
 
-Version actuelle : 1.0.0
+Version actuelle : v1.0.0
 Liste des versions : [Cliquer pour afficher](https://github.com/seah78/P6/tags)
 
 ## Auteurs
